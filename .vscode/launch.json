@@ -1,0 +1,20 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Haxe Interpreter",
+			"type": "haxe-eval",
+			"request": "launch"
+		},
+        {
+            "name": "HashLink",
+            "request": "launch",
+            "type": "hl",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": {
+                "type": "haxe",
+                "args": "active configuration"
+            }
+        }
+	]
+}

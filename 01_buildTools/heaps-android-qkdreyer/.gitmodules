@@ -1,0 +1,19 @@
+[submodule "hashlink"]
+	path = hashlink
+	url = https://github.com/HaxeFoundation/hashlink.git
+[submodule "sdl2"]
+	path = sdl2
+	url = https://github.com/spurious/SDL-mirror.git
+	branch = release-2.0.8
+[submodule "libjpeg-turbo"]
+	path = libjpeg-turbo
+	url = https://github.com/openstf/android-libjpeg-turbo.git
+[submodule "openal-soft"]
+	path = openal-soft
+	url = https://github.com/kcat/openal-soft.git
+[submodule "heaps-android-app"]
+	path = heaps-android-app
+	url = https://github.com/rtissera/heaps-android-app.git
+[submodule "heaps"]
+	path = heaps
+	url = https://github.com/HeapsIO/heaps.git

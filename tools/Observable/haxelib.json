@@ -1,0 +1,20 @@
+{
+    "name": "RxHaxe",
+    "url": "https://github.com/xLeDocteurx/xxx",
+    "license": "MIT",
+    "tags": [
+        "Rx",
+        "RxHaxe",
+        "ReactiveX",
+        "Reactive Extensions",
+        "Streams Observables",
+        "Observable Stream"
+    ],
+    "description": "RxHaxe: Reactive Extensions For Haxe",
+    "version": "0.0.1",
+    "releasenote": "Initial release",
+    "contributors": [
+        "xLeDocteux"
+    ],
+    "dependencies": {}
+}
