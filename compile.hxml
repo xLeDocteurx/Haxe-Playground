@@ -1,55 +1,21 @@
-# -cp examples/HelloWorld/src
-# -D analyser-optimize
-# -lib heaps
-# -lib hlsdl
-# -hl HelloWorld.hl
-# -main HelloWorld
-
--cp examples/H2D_intro/src
+-cp 02_examples/heaps_examples/H2D_intro/src
 -D analyser-optimize
+-D windowSize=1900x1000
 -lib heaps
 -lib hlsdl
--hl H2D_intro.hl
-# -hl out/main.c
+# -lib hldx
+-lib hxColorToolkit
+-hl build/H2D_intro.hl
+# -hl build/main.c
 -main H2D_intro 
-
-# -cp examples/Macros/expressionMacro
-# -D analyser-optimize
-# # -lib heaps
-# # -lib hlsdl
-# # -hl Main.hl
-# -main Main
-# --interp
-
-# -cp examples/Macros/buildMacro
-# -D analyser-optimize
-# # -lib heaps
-# # -lib hlsdl
-# # -hl Main.hl
-# -main Main
-# --interp
-
-# -cp tools/Fetch
-# -D analyser-optimize
-# # -lib heaps
-# # -lib hlsdl
-# # -hl Promise.hl
-# -main Main
-# --interp
 
 # -cp tools/Observable
 # -D analyser-optimize
-# # -lib heaps
-# # -lib hlsdl
-# # -hl Observable.hl
 # -main Main
 # --interp
 
 # -cp tools/Promise
 # -D analyser-optimize
-# # -lib heaps
-# # -lib hlsdl
-# # -hl Promise.hl
 # -main Main
 # --interp
 
@@ -62,8 +28,3 @@
 # # --macro nullSafety("pack", Strict)
 # -main Main
 # --interp
-
-# -hl out/main.c
-# -D windowSize=400x300
-
-# --js main.js
