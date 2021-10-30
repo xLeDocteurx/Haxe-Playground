@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Flowfield" package="com.sample.flowfield" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="Flowfield" />
+	
+	<source path="Source" />
+	
+	<haxelib name="lime" />
+	<haxelib name="heaps" />
+	<!-- <haxelib name="hlsdl" /> -->
+	<!-- <haxelib name="hldx" /> -->
+	<haxelib name="hxColorToolkit" />
+	
+	<assets path="Assets" rename="assets" exclude="icon.svg" />
+    <icon path="Assets/icon.svg" />
+	
+</project>

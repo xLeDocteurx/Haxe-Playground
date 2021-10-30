@@ -16,15 +16,10 @@ class Promise<T> {
 	private var _catchh:Function;
 
 	public function new(callback:(Function, Function) -> T) {
-		// trace(Std.isOfType(input, ValueType.TFunction));
-		// trace(Type.typeof(input) == ValueType.TFunction);
 		this._callback = callback;
 	}
 
 	public static function all(promises:Array<Promise<Any>>):Promise<Any> {
-		// for (promise in promises) {}
-		// for (i in 0...promises.length) {}
-		// for (index => value in promises) {}
 		return new Promise((resolve, reject) -> {
 			var responses:Array<Any>;
 			for (promise in promises) {

@@ -1,11 +1,6 @@
 {
 	"version": "0.2.0",
 	"configurations": [
-		{
-			"name": "Haxe Interpreter",
-			"type": "haxe-eval",
-			"request": "launch"
-		},
         {
             "name": "HashLink",
             "request": "launch",
@@ -15,6 +10,22 @@
                 "type": "haxe",
                 "args": "active configuration"
             }
-        }
+        },
+		{
+			"type": "chrome",
+			"request": "launch",
+			"name": "Launch Chrome against localhost",
+			"url": "file://${workspaceFolder}/index.html",
+			"webRoot": "${workspaceFolder}",
+			"preLaunchTask": {
+				"type" : "haxe",
+				"args" : "active configuration"
+			}
+		},
+		{
+			"name": "Haxe Interpreter",
+			"type": "haxe-eval",
+			"request": "launch"
+		}
 	]
 }
